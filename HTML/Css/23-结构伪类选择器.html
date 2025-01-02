@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>结构伪类选择器</title>
+    <style>
+        .ul1 li:first-child {
+            background-color: green;
+        }
+        
+        .ul1 li:last-child {
+            background-color: green;
+        }
+        
+        .ul1 li:nth-child(2) {
+            background-color: green;
+        }
+        
+        .ul1 li:nth-child(3) {
+            background-color: green;
+        }
+        
+        .ul2 li:nth-child(-n+5) {
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+<ul class="ul1">
+    <li>li 1</li>
+    <li>li 2</li>
+    <li>li 3</li>
+    <li>li 4</li>
+    <li>li 5</li>
+    <li>li 6</li>
+    <li>li 7</li>
+    <li>li 8</li>
+    <li>li 9</li>
+</ul>
+
+<ul class="ul2">
+    <li>li 1</li>
+    <li>li 2</li>
+    <li>li 3</li>
+    <li>li 4</li>
+    <li>li 5</li>
+    <li>li 6</li>
+    <li>li 7</li>
+</ul>
+</body>
+</html>
